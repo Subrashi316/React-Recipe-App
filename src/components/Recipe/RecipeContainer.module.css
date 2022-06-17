@@ -1,0 +1,7 @@
+.recipeContiner {
+    flex: 1;
+    width: 100%;
+    background-color: #fff;
+    min-height: 100%;
+    position: relative;
+}

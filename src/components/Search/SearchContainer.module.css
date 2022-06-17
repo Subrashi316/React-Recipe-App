@@ -1,0 +1,72 @@
+.searchContainer {
+  width: 29%;
+  background-color: #fff;
+  border-right: 1px solid #ccc;
+  position: relative;
+  background-image: url("../../images/food_bg-2.jpg");
+  background-size: cover;
+}
+.searchContainer ul {
+  background-color: #fff;
+  height: 100%;
+}
+
+.pageControls {
+  position: absolute;
+  bottom: 1rem;
+  width: 100%;
+  background: #fff;
+}
+
+.welcome {
+  font-size: 5rem;
+  color: rgb(35, 184, 70);
+  transform: translate(-50%, -50%);
+  top: 50%;
+  position: absolute;
+  left: 50%;
+  background: #fcfcfb;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.bg-transparent {
+  background-color: transparent;
+}
+
+.error {
+  background-color: #fff;
+  min-height: 100%;
+  font-size: 4rem;
+  color: red;
+  text-transform: capitalize;
+  display: grid;
+  place-content: center;
+  text-align: center;
+}
+.pageControls button {
+  font-size: 1.6rem;
+  cursor: pointer;
+  padding: 0.6rem 1.2rem;
+  border-radius: 13px;
+  border: none;
+  color: #fff;
+  background: #23b846;
+}
+
+.left {
+  float: left;
+  margin-left: 10px;
+}
+
+.right {
+  float: right;
+  margin-right: 10px;
+}
+
+@media (max-width:1000px) {
+  .searchContainer{
+    width: 100%;
+    min-height: 100vh;
+  }
+}
